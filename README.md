@@ -14,4 +14,4 @@ pip install -r requirements.txt
 python pdf_merger.py
 
 ## Why I built this
-One line. Something honest. "Built to learn Python file handling and CLI design."
+Built to learn Python file handling and CLI design.
