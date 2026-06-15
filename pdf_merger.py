@@ -27,7 +27,7 @@ def merge_pdfs():
         writer.append(f)
 
      output = input("Enter output filename: ")
-     if not output.ednswith('.pdf'):
+     if not output.endswith('.pdf'):
          output += '.pdf'
 
 
