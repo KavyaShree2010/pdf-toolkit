@@ -1,17 +1,30 @@
 # PDF Toolkit 🔧
+A command-line tool to merge, inspect, and manipulate PDF files — built with Python.
 
-A command-line tool to merge and inspect PDF files — built with Python.
+## Demo
+![PDF Toolkit Demo](demo.gif)
 
 ## Features
-- Merge multiple PDFs into one
-- View page count and file info
-- Simple CLI menu interface
+- Merge any number of PDFs into one output file
+- View page count, file size, and metadata (author, title, creator)
+- Graceful error handling for missing or invalid files
+- Simple interactive CLI menu
 
 ## Setup
-pip install -r requirements.txt
+pip install pypdf
 
 ## Usage
 python pdf_merger.py
 
-## Why I built this
-Built to learn Python file handling and CLI design.
+You'll see a menu:
+1. Merge PDFs
+2. Get PDF Info
+3. Exit
+
+## What I learned
+Built to understand Python file I/O, error handling, and CLI design.
+First project where I focused on writing defensive code — not just code that works,
+but code that fails gracefully.
+
+## Next
+Adding PDF splitting by page range and batch file renaming.
