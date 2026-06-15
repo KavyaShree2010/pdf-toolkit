@@ -2,7 +2,7 @@
 A command-line tool to merge, inspect, and manipulate PDF files — built with Python.
 
 ## Demo
-
+https://github.com/user-attachments/assets/89778fb3-576c-4c01-8dcd-406fc7a030ec
 
 ## Features
 - Merge any number of PDFs into one output file
